@@ -78,9 +78,6 @@ Ce projet vise à prédire la **charge de chauffage (Heating Load - Y1)** et de 
 ```bash
 # Installer les dépendances
 pip install numpy pandas matplotlib scikit-learn
-
-# Exécuter le projet
-python main.py
 ```
 
 ---
