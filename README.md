@@ -1,4 +1,4 @@
-# 🏢 Prédiction de l’Efficacité Énergétique des Bâtiments
+# Prédiction de l’Efficacité Énergétique des Bâtiments
 
 > Projet de Master MLAIM - Université Sidi Mohamed Ben Abdellah (FSDM, Fès)  
 > Réalisé par : Ayat Bouhrir & Wijdane El Karami  
@@ -7,7 +7,7 @@
 
 ---
 
-## 🎯 Objectif
+## Objectif
 
 Ce projet vise à prédire la **charge de chauffage (Heating Load - Y1)** et de **refroidissement (Cooling Load - Y2)** des bâtiments résidentiels à partir de leurs caractéristiques de construction, en utilisant deux approches de réseaux de neurones :
 - 🧠 **Extreme Learning Machine (ELM)**
@@ -15,7 +15,7 @@ Ce projet vise à prédire la **charge de chauffage (Heating Load - Y1)** et de 
 
 ---
 
-## 📁 Contenu du projet
+## Contenu du projet
 
 - `ENB2012_data.xlsx` : Dataset utilisé (Energy Efficiency Data Set)
 - `ELM.py` : Implémentation de la classe ELM
@@ -26,7 +26,7 @@ Ce projet vise à prédire la **charge de chauffage (Heating Load - Y1)** et de 
 
 ---
 
-## 🧪 Description du dataset
+## Description du dataset
 
 - 📦 768 échantillons
 - 🔢 8 variables d’entrée (surface, orientation, vitrage, etc.)
@@ -36,7 +36,7 @@ Ce projet vise à prédire la **charge de chauffage (Heating Load - Y1)** et de 
 
 ---
 
-## ⚙️ Méthodologie
+## Méthodologie
 
 1. **Chargement & prétraitement** :
    - Normalisation des données [0,1]
@@ -52,7 +52,7 @@ Ce projet vise à prédire la **charge de chauffage (Heating Load - Y1)** et de 
 
 ---
 
-## 📊 Résultats
+## Résultats
 
 | Modèle            | Target | RMSE   | MAE   | R²    |
 |-------------------|--------|--------|-------|-------|
@@ -65,7 +65,7 @@ Ce projet vise à prédire la **charge de chauffage (Heating Load - Y1)** et de 
 
 ---
 
-## 📷 Visualisations
+## Visualisations
 
 - Prédictions vs Réalité pour Y1 et Y2
 - Graphiques comparatifs des RMSE, MAE, R² entre modèles
@@ -73,7 +73,7 @@ Ce projet vise à prédire la **charge de chauffage (Heating Load - Y1)** et de 
 
 ---
 
-## 🚀 Comment exécuter
+## Comment exécuter
 
 ```bash
 # Installer les dépendances
@@ -85,7 +85,7 @@ python main.py
 
 ---
 
-## 📌 Conclusion
+## Conclusion
 
 Le modèle **ELM** s'est montré plus performant que les réseaux BP :
 - Moins de temps d’entraînement
